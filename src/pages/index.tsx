@@ -5,7 +5,7 @@ import logoslinkedinIcon from "../assets/logos_linkedin-icon.png";
 import logosgithubIcon from "../assets/logos_github-icon.png";
 import Menu from '../components/menu'
 
-import Sobre from '../components/sobre';
+import Sobre from '../components/description';
 import Footer from '../components/footer';
 import Link from 'next/link';
 import Portfolio from '../components/portfolio';

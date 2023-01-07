@@ -1,6 +1,6 @@
 import styles from '../styles/Sobre.module.css'
 import frame from "../assets/Frame.png";
-import importantDevices from "../assets/importantdevices.png";
+import importantDevices from "../assets/importantDevices.png";
 import developerMode from "../assets/Developermode.png";
 import star from "../assets/star.png";
 import Image from 'next/image';

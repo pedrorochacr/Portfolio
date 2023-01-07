@@ -16,13 +16,7 @@
     color: #f2edd6a1;
     font-family: 'Poppins', Arial;
   }
-  .backgroundImage{
   
-    height: 400%;
-    z-index: -1;
-    position: fixed;
-    background-repeat: repeat;
-  }
   .feedbacksTitle{
    
     justify-content: center;

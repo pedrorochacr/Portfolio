@@ -10,10 +10,6 @@ export default function Sobre() {
     return (
         <>
             <div className={styles.description} id='servico'>
-            <Image className={styles.backgroundImage} src={background} alt={''}
-                fill
-                
-                ></Image>
                 <div className={styles.frame1}>
                     <span className={styles.desdede2020narea}>
                         Desde de 2020 na área de desenvolvimento de Software.<br /> Sempre oferecendo

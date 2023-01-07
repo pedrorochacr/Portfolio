@@ -32,8 +32,9 @@ export default function Home() {
         </div>
         <Sobre ></Sobre>
         <Portfolio></Portfolio>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
+     
     </>
   )
 }

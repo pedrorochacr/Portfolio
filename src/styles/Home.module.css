@@ -1,5 +1,7 @@
 
-
+.root{
+  background: url(../assets/fundo.png);
+}
 .description {
   
   margin-top: 100px;

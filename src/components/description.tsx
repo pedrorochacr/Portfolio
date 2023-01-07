@@ -1,6 +1,7 @@
 import styles from '../styles/Sobre.module.css'
 import frame from "../assets/Frame.png";
 import importantDevices from "../assets/devices.png";
+import background from '../assets/fundo.png'
 import developerMode from "../assets/Developermode.png";
 import star from "../assets/star.png";
 import Image from 'next/image';
@@ -9,6 +10,10 @@ export default function Sobre() {
     return (
         <>
             <div className={styles.description} id='servico'>
+            <Image className={styles.backgroundImage} src={background} alt={''}
+                fill
+                
+                ></Image>
                 <div className={styles.frame1}>
                     <span className={styles.desdede2020narea}>
                         Desde de 2020 na área de desenvolvimento de Software.<br /> Sempre oferecendo

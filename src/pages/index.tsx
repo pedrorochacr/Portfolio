@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import logoslinkedinIcon from "../assets/logos_linkedin-icon.png";
 import logosgithubIcon from "../assets/logos_github-icon.png";
 import Menu from '../components/menu'
-
+import background from '../assets/fundo.png'
 import Sobre from '../components/description';
 import Footer from '../components/footer';
 import Link from 'next/link';
@@ -12,9 +12,11 @@ import Portfolio from '../components/portfolio';
 export default function Home() {
   return (
     <>
-
-      <Menu></Menu>
+      
+      
       <div className={styles.root}>
+        
+        <Menu></Menu>
         <div className={styles.description} id='home'>
           <span className={styles.pedrorocha}>Pedro Rocha</span>
           <span className={styles.desenvolvedorwebfu}>Desenvolvedor de Software Full Stack</span>

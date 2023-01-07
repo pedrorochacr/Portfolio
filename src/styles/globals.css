@@ -55,7 +55,7 @@ body {
   font-family: 'Poppins';
   max-width: 100vw;
   scroll-behavior: smooth !important;
-  background-image: url(../assets/fundo.jpg);
+  background-image: url(../assets/fundo.png);
  
   color: #f2edd6a1;
 }

@@ -9,6 +9,7 @@ import Sobre from '../components/description';
 import Footer from '../components/footer';
 import Link from 'next/link';
 import Portfolio from '../components/portfolio';
+import Contato from '../components/contato';
 export default function Home() {
   return (
     <>
@@ -32,6 +33,7 @@ export default function Home() {
         </div>
         <Sobre ></Sobre>
         <Portfolio></Portfolio>
+        <Contato></Contato>
         <Footer></Footer>
       </div>
      

@@ -19,7 +19,7 @@ export default function Portfolio() {
                     <p className={styles.projectDescription}>Site - Ecommerce </p>
                 </section>
                 <section>
-                    <Image src={crud} width={380} alt={""}></Image>
+                    <Image src={crud} className={styles.cadastroPic} width={380} alt={""}></Image>
                     <p className={styles.projectDescription}>Sistema - Cadastro de Usuários</p>
                 </section>
                 <section>

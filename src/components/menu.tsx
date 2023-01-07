@@ -18,7 +18,7 @@ export default function Menu() {
               <Link href="/">Home</Link>
               <Link href="#servico">Serviços</Link>
               <Link href="#portfolio">Projetos</Link>
-              <Link href="#servico">Contato</Link>
+              
         </nav>
         
     </>

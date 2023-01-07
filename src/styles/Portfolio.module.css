@@ -50,3 +50,32 @@
         padding-left: 45px;
     }
   }
+
+  @media(max-width: 390px){
+    .portfolioArea section{
+        width: 360px !important;
+        
+        
+    }
+    .cadastroPic{
+        width: 340px;
+        height: 245px;
+        padding-left: 35px;
+        padding-top: 35px;
+        margin-bottom: 12px;
+    }
+    .ecommercePic{
+        width: 350px;
+        height: 220px;
+        padding-left: 35px;
+        padding-top: 35px;
+        margin-bottom: 12px;
+    }
+    .arqPic{
+        width: 365px;
+        height: 230px;
+        padding-left: 35px;
+        padding-top: 35px;
+        margin-bottom: 12px;
+    }
+  }

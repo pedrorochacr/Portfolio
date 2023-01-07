@@ -1,0 +1,27 @@
+.contatoArea{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    margin-top: 125px;
+    margin-right: 125px;
+    font-size: 25px;
+}
+.contatoInformation{
+    margin-top: 15px;
+    font-size: 15px;
+}
+@media (max-width:900px) {
+    .contatoArea{
+        align-items: center;
+        margin-left: 105px;
+    }
+    
+}
+@media (max-width:450px) {
+    .contatoArea{
+        width: 75%;
+        margin-left: 55px;
+    }
+    
+}

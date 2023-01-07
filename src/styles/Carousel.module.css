@@ -1,0 +1,45 @@
+
+
+.root {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0px 95px;
+  padding: 0;
+  height: 100%;
+}
+
+.swiper {
+  width: 80%;
+  height: 120%;
+}
+.img{
+   
+    width: 400px;
+    height: auto;
+  
+    margin-bottom: 10px;
+}
+.swiperSlide{
+  text-align: center;
+  font-size: 18px;
+ 
+  border: 3px solid yellow;
+  border-radius: 20%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiperSlide:hover{
+   background-color: rgb(83, 82, 82);
+  }
+

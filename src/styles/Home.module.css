@@ -1,0 +1,83 @@
+
+
+.description {
+  margin-top: 100px;
+  width: 90%;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 35px;
+  display: flex;
+  margin-left: 65px;
+}
+
+.pedrorocha {
+  margin-top: 60px;
+  height: 60px;
+  margin-left: 1px;
+  font-size: 4.063rem;
+  font-weight: 800;
+}
+
+.desenvolvedorwebfu {
+  font-weight: 400;
+  font-size: 1.688rem;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  margin-left: 22px;
+}
+
+.flexcontainer {
+  width: 35%;
+  flex-direction: row;
+  
+  align-items: stretch;
+  margin-left: 25px;
+  display: flex;
+}
+
+
+.projects{
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    margin: 10px 0px;
+}
+
+
+
+
+
+@media(max-width: 900px){
+    .pedrorocha {
+      font-size: 3.2rem;
+    }
+    .desenvolvedorwebfu {
+      font-size: 1.288rem;
+      margin-bottom: 7px;
+    }
+    .logoslinkedinicon {
+      width: 49px;
+      height: 36px;
+      object-fit: cover;
+    }
+    .description {
+      
+      margin-left: 25px;
+    }
+    .logosgithubicon {
+      width: 64px;
+      height: 40px;
+      object-fit: cover;
+      margin-left: 4px;
+      padding-bottom: 6px;
+    }
+   
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+

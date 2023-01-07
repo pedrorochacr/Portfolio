@@ -1,0 +1,173 @@
+.frame1 {
+    
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    
+    font-size: 3.063rem;
+    font-weight: 800;
+    
+    display: flex;
+  }
+  .description{
+    margin-top: 700px;
+    color: #f2edd6a1;
+    font-family: 'Poppins', Arial;
+  }
+  .feedbacksTitle{
+   
+    justify-content: center;
+    display: flex;
+    padding-top: 22px;
+    font-size: 3.063rem;
+    font-weight: 300;
+    margin-left: 230px;
+    width: 70%;
+   
+  }
+  .feedbacksTitle img{
+    margin-top: 8px;
+   
+  }
+  .desdede2020narea {
+    margin-left: 165px;
+    margin-bottom: 3px;
+    font-size: 2.188rem;
+    font-weight: 400;
+    line-height: 53px;
+  }
+ .automaodeprocesos{
+    margin-left: 0px;
+ }
+ .developermod{
+    margin-right: 0px;
+ }
+.line{
+    width: 76%;
+    margin: 0px auto;
+    height: 1px;
+    object-fit: cover;
+    border: 1px solid #fff4f4;
+    margin-top: 35px;
+    
+}
+  
+  .flexcontainer {
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 30px;
+    display: flex;
+  }
+  
+  .desenvolvimentodes {
+    margin-bottom: 5px;
+  }
+  
+  .desenvolvimentodep{
+    margin-top: 15px;
+  }
+  
+  .flexcontainer1 {
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 35px;
+    margin-left: 11px;
+    margin-right: 39px;
+    display: flex;
+  }
+  
+
+  .automaodeprocesos{
+    margin-left: 39px;
+  }
+  .importantDevices{
+     margin-top: 15px;
+  }
+
+  .flexcontainer2 {
+    margin-top: 25px;
+    width: 65%;
+    flex-direction: row;
+    flex-basis: 21%;
+    align-items: stretch;
+    margin-left: 30px;
+    margin-right: 32px;
+    display: flex;
+  }
+  
+  @media(max-width: 900px){
+    .desdede2020narea {
+      font-size: 1.2rem;
+      line-height: 27px;
+      margin-left: 10px;
+    }
+    
+  .flexcontainer {
+    width: 75%;
+    font-size: 1.2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 30px;
+    display: flex;
+  }
+  .developermod{
+    width: 136px;
+     height: 120px;
+     
+  }
+  .feedbacksTitle{
+    margin: auto;
+    font-size: 2.063rem;
+
+  }
+  .frame{
+    width: 136px;
+     height: 120px;
+  }
+  .desenvolvimentodes {
+    margin-bottom: 5px;
+  }
+  
+  .desenvolvimentodep{
+    margin-top: 15px;
+    
+  }
+  
+  .flexcontainer1 {
+    
+    font-size: 1.2rem;
+   
+  }
+  
+  .automaodeprocesos{
+    margin-left: 0px;
+    width: 120px;
+     height: 120px;
+  }
+  .importantDevices{
+     
+     width: 120px;
+     height: 120px;
+  }
+  .flexcontainer2 {
+    font-size: 1.2rem;
+  }
+   
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+  
+
+  

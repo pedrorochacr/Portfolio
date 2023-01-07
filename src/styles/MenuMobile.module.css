@@ -1,0 +1,39 @@
+
+.menuMobile button{
+    background: transparent;
+    color: #f2edd6a1;
+    border: none;
+    
+    
+}
+.menuMobile a{
+    font-size: 1.563rem;
+    font-weight: 600;
+}
+
+@media (min-width: 900px) {
+    .menuMobile {
+      display: none;
+
+    }
+}
+@media (max-width: 900px) {
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 4;
+        top: 0;
+        width: 100%;
+        background-color: #1a1919ee;
+       
+        padding: 15px 25px;
+        
+        font-family: 'Poppins';
+        
+        line-height: 58px;
+        display: flex;
+    position: sticky;
+
+    }
+}

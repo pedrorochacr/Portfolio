@@ -1,0 +1,41 @@
+
+
+.header{
+    color: #f2edd6a1;
+    top: 0;
+    width: 100%;
+    background-color: #1a1919ee;
+    justify-content: flex-end;
+
+    padding-bottom: 1px;
+    font-family: 'Poppins';
+    font-size: 2.063rem;
+    font-weight: 600;
+    line-height: 108px;
+    display: flex;
+   position: sticky;
+}
+.header a{
+    margin-top: 1px;
+    margin-right: 65px;
+}
+.header a:hover{
+    
+    border-bottom: 2px solid rgba(255, 255, 255, 0.623);
+}
+
+.header a:focus{
+    
+    border-bottom: 3px solid rgba(255, 255, 255, 0.623);
+}
+
+
+
+ @media (max-width: 900px) {
+    .header {
+      display: none;
+    }
+    
+}
+   
+    
